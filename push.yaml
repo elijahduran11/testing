@@ -1,0 +1,7 @@
+- task: Docker@2
+  displayName: 'Push Docker Image'
+  inputs:
+    command: 'push'
+    repository: 'techRegistry/elijahduran11/testing'
+    tags: |
+      18  # Match this with the build step tag
